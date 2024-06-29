@@ -1,0 +1,59 @@
+:root{
+    --color1 : rgba(1,1,41,255);
+    --color2 : rgba(1,1,102,255);
+    --color3 : rgba(35,158,27,255);
+    --color4 : red;
+}
+body{
+    background-color: var(--color1);
+    color: white;
+}
+.box{
+    border: 2px solid white;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+}
+.right-pane{
+    margin-right: 3rem;
+}
+.left-pane{
+    margin-left: 2rem;
+    max-width: 50vw;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 1rem;
+}
+li button{
+    color: white;
+    background-color: var(--color2);
+}
+.profit, .bookValue{
+    margin-left: 1rem;
+}
+.neg-profit{
+    color: red;
+}
+.pos-profit{
+    color: var(--color3);
+}
+#stock-over{
+    font-size: 1.75rem;
+}
+#charts{
+    background-color: var(--color2);
+}
+#button-space button{
+    background-color: var(--color1);
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+}
